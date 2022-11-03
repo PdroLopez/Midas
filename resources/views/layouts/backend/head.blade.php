@@ -1,0 +1,17 @@
+<head>
+	<base href="../../">
+    <meta charset="utf-8" />
+    <title>Midas Chile | Workflow</title>
+    <meta name="description" content="Mail inbox app example" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+    <link href="{{ asset('metronic_7/demo1/dist/assets/css/pages/wizard/wizard-4.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('metronic_7/demo1/dist/assets/plugins/global/plugins.bundle.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('metronic_7/demo1/dist/assets/plugins/custom/prismjs/prismjs.bundle.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('metronic_7/demo1/dist/assets/css/style.bundle.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('metronic_7/demo1/dist/assets/css/themes/layout/header/base/light.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('metronic_7/demo1/dist/assets/css/themes/layout/header/menu/light.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('metronic_7/demo1/dist/assets/css/themes/layout/brand/dark.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('metronic_7/demo1/dist/assets/css/themes/layout/aside/dark.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('css/logo.css') }}" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="{{ asset('img/midas.ico') }}" />

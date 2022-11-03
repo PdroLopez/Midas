@@ -1,0 +1,13 @@
+{
+    "name": "Agendamiento",
+    "alias": "agendamiento",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Agendamiento\\Providers\\AgendamientoServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

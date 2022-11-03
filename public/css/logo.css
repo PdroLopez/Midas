@@ -1,0 +1,9 @@
+.imagen-logo{
+ 	width:90%;
+}
+
+@media (max-width: 1180px) and  (min-width: 400px){
+    .imagen-logo{
+ 		width:20%;
+	}
+}

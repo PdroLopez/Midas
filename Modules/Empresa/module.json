@@ -1,0 +1,13 @@
+{
+    "name": "Empresa",
+    "alias": "empresa",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Empresa\\Providers\\EmpresaServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

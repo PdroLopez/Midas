@@ -1,0 +1,13 @@
+{
+    "name": "Contenido",
+    "alias": "contenido",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Contenido\\Providers\\ContenidoServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

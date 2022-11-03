@@ -1,0 +1,13 @@
+{
+    "name": "Tienda",
+    "alias": "tienda",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Tienda\\Providers\\TiendaServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

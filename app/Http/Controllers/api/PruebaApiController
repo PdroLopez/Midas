@@ -1,0 +1,43 @@
+<?php   
+namespace App\Http\Controllers\Api;
+
+use Illuminate\Http\Request;
+use GuzzleHttp\Client;
+use Illuminate\Support\Facades\Redirect;
+use Log;
+ 
+
+
+class PruebaApiController extends Controller
+{
+ 
+    public function prueba(){
+        $client = new Client();
+
+        $request = $client->request('GET', 'prueba', [
+        'debug' => FALSE,
+        'base_uri' => 'https://integracion.wooy.cl/api/',
+        'verify' => false,
+        ]);
+
+        $response = $request->getBody();
+        Log::info($response);  
+        
+        return $response;
+        
+    }
+     public function prueba2(){
+        $client = new Client();
+
+        $request = $client->request('GET', 'prueba', [
+        'debug' => FALSE,
+        'base_uri' => env('ENDPOINT_WOOY'),
+        ]);
+
+        $response = $request->getBody();
+        Log::info($response);
+        
+        return $response;
+        
+    }
+}

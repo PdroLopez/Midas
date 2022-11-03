@@ -1,0 +1,12 @@
+{
+    "Dgr": true,
+    "Tienda": true,
+    "Backend": true,
+    "Empresa": true,
+    "Contenido": true,
+    "Workflow": true,
+    "Login": true,
+    "Notificaciones": true,
+    "Agendamiento": true,
+    "Payments": true
+}
